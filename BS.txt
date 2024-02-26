@@ -1,0 +1,16 @@
+Papers published during B.S.
+
+Qiu, J., Li, W., Zhang, Y., Fu, S., & Tan, H. (2014, November). Two numerical
+algorithms and numerical experiments for efficiently solving
+inequality-and-bound constrained QP. In Systems and Informatics (ICSAI), 2014
+2nd International Conference on (pp. 39-44). IEEE.
+
+Zhang, Y., Li, W., He, L., Qiu, J., & Tan, H. (2016, August). Population
+projection of the Indian subcontinent using TP-aided WASD neuronet. In Natural
+Computation, Fuzzy Systems and Knowledge Discovery (ICNC-FSKD), 2016 12th
+International Conference on (pp. 23-28). IEEE.
+
+Zhang, Y., Li, W., Qiu, B., Qiu, J., & Tan, H. (2015, November). Northern
+American population data recovery from 1500AD to 1950AD as well as prediction
+using WASD neuronet with 513-year data. In Chinese Automation Congress (CAC),
+2015 (pp. 41-46). IEEE.
