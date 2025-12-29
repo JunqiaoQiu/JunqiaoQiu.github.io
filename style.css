@@ -111,4 +111,97 @@ h2, h4 {
 		        }
 }
 
+.member {
+   width: 256px;
+   height: auto;
+   float: left; 
+   margin-right: 50px;
+}
 
+.member img {
+  /*border-radius: 100%;*/
+  margin-top: 30px;
+  width: 256px;
+  height: auto; /*256px;*/
+  position: relative;
+  margin-left: -(half ot the image width)px
+  filter:brightness(150%);
+
+}
+
+.member p {
+  text-align: center;
+  position: absolute;
+}
+
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  content: " ";
+}
+
+.container:after {
+  clear: both;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  content: " ";
+}
+
+.container:after {
+  clear: both;
+}
+
+.row {
+  margin: auto;
+}
+
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+
+.row:after {
+  clear: both;
+}
+
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+
+.row:after {
+  clear: both;
+}
+
+.grid-container {
+  display: grid;
+  /* Creates 3 columns of equal width (1 fractional unit) */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px; /* Adds space between items */
+}
+
+.item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* Specific style for the last item, if needed, though default grid behavior works here */
+.item:last-child {
+  /* This ensures the 4th item stays left-aligned on the next line */
+  grid-column: 1 / span 1; /* Starts at column 1 and spans 1 column */
+}
